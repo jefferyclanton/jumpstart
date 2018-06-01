@@ -35,8 +35,14 @@ nav .container {
 .image-container img {
   opacity: 0.7;
 }
-.products {
+.products li {
   list-style-type: none;
+  opacity: 0.7;
+  line-height: 1.35;
+}
+
+.products p {
+  line-height: 1.35;
 }
 
 .products h3 {
