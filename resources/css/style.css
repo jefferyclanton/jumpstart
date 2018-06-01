@@ -1,3 +1,44 @@
+/*Nav Styling*/
 nav .container {
   width: 50%;
+}
+
+.active {
+  color: orangered;
+}
+
+.jumbotron-bike {
+  background-image: url(../jumpstart_resources/images/jumbotron-bike.jpg);
+  color: white;
+  text-align: center;
+}
+
+/*Jumbotron Styling*/
+.jumbotron header {
+  font-family: 'Monoton', cursive;
+  font-size:7rem;
+  text-shadow: 5px 5px black;
+}
+
+.jumbotron p {
+  font-size: 1.2rem;
+  text-shadow: 2px 2px black;
+}
+
+/*Featured Project Styling*/
+#featured-heading {
+  color: steelblue;
+  padding-left: 5rem;
+}
+
+/* Products Styling Section */
+.image-container img {
+  opacity: 0.7;
+}
+.products {
+  list-style-type: none;
+}
+
+.products h3 {
+  color: steelblue;
 }
