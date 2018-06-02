@@ -1,3 +1,14 @@
+/* Global Styling*/
+.image-container {
+
+}
+
+button {
+  padding-top: 1.3rem;
+  width: 11.4rem;
+  padding-bottom: 1.3rem;
+}
+
 /*Nav Styling*/
 nav .container {
   width: 50%;
@@ -47,4 +58,21 @@ nav .container {
 
 .products h3 {
   color: steelblue;
+}
+
+/* Projects Section*/
+.project-section img {
+  width: 100%;
+}
+
+/* Learn More Section */
+.learn-more {
+  text-align: center;
+  padding-top: 5.3rem;
+  margin: 5.3rem auto;
+}
+
+.learn-more p {
+  padding-top: 1.4rem;
+  padding-bottom: 1.4rem;
 }
