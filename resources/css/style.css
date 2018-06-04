@@ -37,12 +37,29 @@ button.btn-primary.btn-lg:active {
 }
 
 /*Nav Styling*/
+nav {
+  background-color: white;
+}
+
 nav .container {
   width: 50%;
+  margin-left: 1rem;
+}
+
+li.nav-item.nav-link {
+    padding-right: 2rem;
 }
 
 nav ul li {
   font-size: 1.1rem;
+}
+
+nav ul li {
+  padding-right: 2rem;
+}
+
+.navbar-nav .nav-link {
+
 }
 
 .active {
@@ -121,5 +138,13 @@ header {
 @media only screen and (max-width: 540px) {
   header {
     font-size: 5.7rem;
+  }
+
+  img.col-12.navbar-right {
+    display: none;
+  }
+
+  li.nav-item.nav-link {
+    width: 100%;
   }
 }
