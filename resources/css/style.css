@@ -1,12 +1,39 @@
 /* Global Styling*/
+html {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
 .image-container {
 
 }
 
-button {
-  padding-top: 1.3rem;
+h2 {
+  font-size: 1.7rem;
+}
+
+.col-12 h3 {
+  font-size: 1.3rem;
+}
+
+button.btn-primary.btn-lg {
   width: 11.4rem;
+  margin-top: 2.8rem;
+  padding-top: 1.3rem;
   padding-bottom: 1.3rem;
+  font-weight: bold;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+button.btn-primary.btn-lg:hover {
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+}
+
+button.btn-primary.btn-lg:active {
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+}
+
+.blue {
+  color: steelblue;
 }
 
 /*Nav Styling*/
@@ -14,32 +41,49 @@ nav .container {
   width: 50%;
 }
 
-.active {
-  color: orangered;
+nav ul li {
+  font-size: 1.1rem;
 }
 
-.jumbotron-bike {
-  background-image: url(../jumpstart_resources/images/jumbotron-bike.jpg);
-  color: white;
-  text-align: center;
+.active {
+  color: #399bd1;
 }
 
 /*Jumbotron Styling*/
-.jumbotron header {
+.jumbotron.jumbotron-bike {
+  background-image: url(../jumpstart_resources/images/jumbotron-bike.jpg);
+  color: white;
+  text-align: center;
+  padding: 11.85rem;
+}
+
+header {
   font-family: 'Monoton', cursive;
   font-size:7rem;
-  text-shadow: 5px 5px black;
+  margin: auto;
+  text-shadow: -1px -1px 0 #000,
+               -1px -1px 0 #000,
+               -1px -1px 0 #000,
+               -1px -1px 0 #000;
 }
 
 .jumbotron p {
   font-size: 1.2rem;
-  text-shadow: 2px 2px black;
+  width: 51.3rem;
+  margin: auto;
+}
+
+.jumbotron button {
+  margin: auto;
 }
 
 /*Featured Project Styling*/
-#featured-heading {
+.featured-project {
+
+}
+
+#featured {
   color: steelblue;
-  padding-left: 5rem;
 }
 
 /* Products Styling Section */
@@ -48,16 +92,12 @@ nav .container {
 }
 .products li {
   list-style-type: none;
-  opacity: 0.7;
-  line-height: 1.35;
+  color: rgba(0, 0, 0, 0.7);
+  line-height: 1.4;
 }
 
 .products p {
   line-height: 1.35;
-}
-
-.products h3 {
-  color: steelblue;
 }
 
 /* Projects Section*/
@@ -75,4 +115,11 @@ nav .container {
 .learn-more p {
   padding-top: 1.4rem;
   padding-bottom: 1.4rem;
+}
+
+/* Media Queries for Mobile View */
+@media only screen and (max-width: 540px) {
+  header {
+    font-size: 5.7rem;
+  }
 }
